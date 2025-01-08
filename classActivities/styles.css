@@ -1,0 +1,12 @@
+.class-selector div {
+} /* descendant combinator - targets <div> inside class-selector */
+
+.parent > .child {
+} /* direct descendant - targets child class directly inside parent */
+
+a:hover {
+} /* :hover pseudo-class targets only links that are hovered */
+
+.title::before {
+  content: ‘-’;
+} /* pseudo-element inserted before each .title */
