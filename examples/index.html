@@ -3,7 +3,18 @@
   <style>
     .something {
       width: 100px;
-      height: 100px;
+      height: 1500px;
+    }
+
+    .child-example {
+      width: 50px;
+      height: 50px;
+      background-color: blue;
+      position: sticky;
+      top: 0;
+    }
+
+    .child-example:hover {
       background-color: red;
     }
   </style>
@@ -15,6 +26,8 @@
   <body>
     <h1>Welcome to My Basic HTML Page</h1>
     <p><strong>This</strong> is a simple HTML page example.</p>
-    <div class="something"></div>
+    <div class="something">
+      <div class="child-example">look at me</div>
+    </div>
   </body>
 </html>
